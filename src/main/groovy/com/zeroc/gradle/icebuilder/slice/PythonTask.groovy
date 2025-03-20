@@ -26,7 +26,7 @@ class PythonTask extends DefaultTask {
     @Optional
     String prefix
 
-    @InputFiles
+    @Input
     @Optional
     FileCollection includeDirs
 

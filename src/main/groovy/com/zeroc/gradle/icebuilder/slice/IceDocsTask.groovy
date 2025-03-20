@@ -53,7 +53,7 @@ class IceDocsTask extends DefaultTask {
     @OutputDirectory
     final DirectoryProperty outputDir = project.objects.directoryProperty()
 
-    @InputFiles
+    @Input
     @Optional
     FileCollection includeDirs
 
